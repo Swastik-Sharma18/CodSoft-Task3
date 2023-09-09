@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  background-color: rgb(212, 116, 145);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: #52b69a;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 1px 5px;
+  outline: 2px solid #03071e;
+}
+.display {
+  background-color: #03071e;
+  color: aliceblue;
+  height: 100px;
+  width: 100%;
+  text-align: right;
+  padding: 20px;
+  font-size: 30px;
+  position: relative;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border: 5px solid #52b69a;
+}
+.display-1 {
+  opacity: 0.5;
+  font-size: 20px;
+  height: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.temporary-result {
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  font-size: 20px;
+  opacity: 0.5;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.all_button {
+  background-color: rgba(3, 7, 30);
+  color: rgb(255, 255, 255);
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  padding: 10px;
+  padding-top: 20px;
+  border: 5px solid #52b69a;
+  border-radius: 10px;
+  grid-gap: 1px;
+}
+.button {
+  cursor: pointer;
+  border-radius: 30px;
+  border: 5px solid white;
+  border-spacing: 10px;
+  height: 100px;
+  width: 100%;
+  font-size: 30px;
+  background-color: #52b69a;
+}
+.button:hover {
+  background-color: #03071e;
+  color: white;
+}
+.btn-0 {
+  grid-column: 1/3;
+}
